@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz | Eteris2</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,700'><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+	<div class="page-header">
+    </div>
+	<ol>
+    	<li><strong>At a party do you:</strong><br>
+            <div class="radio">
+                <label>
+	                <input type="radio" name="q1" value="Spray">
+    	            Interact with many, including strangers
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+	                <input type="radio" name="q1" value="i">
+    	            Interact with a few, known to you
+                </label>
+            </div>
+        </li>
+
+    	<li><strong>Are you more:</strong><br>
+            <div class="radio">
+                <label>
+	                <input type="radio" name="q2" value="Lotion">
+    	            Realistic than speculative
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+	                <input type="radio" name="q2" value="n">
+    	            Speculative than realistic
+                </label>
+            </div>
+        </li>
+
+    	<li><strong>Is it worse to:</strong><br>
+            <div class="radio">
+                <label>
+	                <input type="radio" name="q3" value="Lotion">
+    	            Have your “head in the clouds”
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+	                <input type="radio" name="q3" value="n">
+    	            Be “in a rut”
+                </label>
+            </div>
+        </li>
+
+    	<li><strong>Are you more impressed by:</strong><br>
+            <div class="radio">
+                <label>
+	                <input type="radio" name="q4" value="Sabun">
+    	            Principles
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+	                <input type="radio" name="q4" value="f">
+    	            Emotions
+                </label>
+            </div>
+        </li>
+
+    </ol>
+    
+	<p class="text-center"><button id="submit" class="btn btn-primary btn-lg">Calculate Results</button></p>
+
+    <div id="results" class="text-center">
+        <br><br>
+		<h2 id="type"></h2>
+        <p id="type-details" class="type-description hidden">
+            <span id="type-description"></span><br>
+            <a id="type-site" href="#" target="_blank">Purchase your product here</a>
+        </p><br>
+    </div>
+</div>
+
+<script  src="script.js"></script>
+
+</body>
+</html>
